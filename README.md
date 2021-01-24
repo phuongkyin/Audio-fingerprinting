@@ -1,4 +1,4 @@
-# Audio-fingerprinting
+# Audio-fingerprinting (Source: https://towardsdatascience.com/locality-sensitive-hashing-for-music-search-f2f1940ace23)
 
 Audio fingerprinting is the process of identifying unique characteristics from a fixed duration audio stream. Such unique characteristics can be identified for all existing songs and stored in a database. When we hear a new song, we can extract similar characteristics from the recorded audio and compare against the database to identify the song. However, in practice there will be two challenges with this approach:
 High dimensionality of the unique characteristic/feature vector required to identify songs
